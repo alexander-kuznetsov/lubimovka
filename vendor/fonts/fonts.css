@@ -1,0 +1,23 @@
+/* Copyright (c) 2014-2019 by Gayane Bagdasaryan, Vyacheslav Kirilenko. All rights reserved. */
+
+@font-face {
+	font-family: 'formularLight';
+	src: url('./formular-light/formular-light.eot');
+	src:
+	     url('./formular-light/formular-light.eot?#iefix') format('embedded-opentype'),
+	     url('./formular-light/formular-light.woff2') format('woff2'),
+	     url('./formular-light/formular-light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'neueMachinaRegular';
+	src: url('./neue-machina-regular/PPneueMachina-Regular.eot');
+	src:
+	     url('./neue-machina-regular/PPneueMachina-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('./neue-machina-regular/PPneueMachina-Regular.woff2') format('woff2'),
+	     url('./neue-machina-regular/PPneueMachina-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
