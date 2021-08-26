@@ -1,0 +1,21 @@
+.spect-title__buy-link {
+    display: flex;
+    height: 100%;
+    width: calc(100% - 27px);
+    justify-content: space-between;
+    background-image: url('../../../images/arrow-right.svg');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 0 18px 16px;
+    color: #242424;
+}
+
+.spect-title__buy-link:hover {
+    background-image: url('../../../images/arrow-down-w.svg');
+    color: #FFF;
+    transition: 0.3s linear;
+}

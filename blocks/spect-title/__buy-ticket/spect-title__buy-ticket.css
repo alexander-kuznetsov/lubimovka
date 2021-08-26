@@ -1,0 +1,21 @@
+.spect-title__buy-ticket {
+    display: inline-block;
+    max-width: 240px;
+    max-height: 56px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #000 50%, #E5E5E5 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+.spect-title__buy-ticket:hover {
+    background-position: 0 100%;
+    color: #FFF;
+    transition: 0.3s linear;
+}

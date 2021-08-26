@@ -1,9 +1,16 @@
 @import url(../vendor/normalize.css);
-
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/footer/footer.css);
+@import url('../blocks/spect-title/__card/spect-title__card.css');
+@import url('../blocks/spect-title/__specification/spect-title__specification.css');
+@import url('../blocks/spect-title/spect-title.css');
+@import url('../blocks/spect-title/__name/spect-title__name.css');
+@import url('../blocks/spect-title/__img/spect-title__img.css');
+@import url('../blocks/spect-title/__intro/spect-title__intro.css');
+@import url('../blocks/spect-title/__event-time/spect-title__event-time.css');
+@import url('../blocks/spect-title/__buy-ticket/spect-title__buy-ticket.css');
+@import url('../blocks/spect-title/__info/spect-title__info.css');
+@import url('../blocks/spect-title/__buy-link/spect-title__buy-link.css');
