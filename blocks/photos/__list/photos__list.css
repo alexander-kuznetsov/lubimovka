@@ -1,7 +1,9 @@
 .photos__list {
     margin: 0;
     padding: 0;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1px;
     list-style-type: none;
@@ -9,6 +11,7 @@
 
 @media screen and (max-width: 830px) {
     .photos__list {
+        -ms-grid-columns: 1fr 3px 1fr;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2px 3px;
     }
