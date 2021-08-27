@@ -1,5 +1,5 @@
 .spect-title__card {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: grid;
     grid-template-columns: 1fr 720px;
     grid-column-gap: 60px;

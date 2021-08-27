@@ -3,6 +3,7 @@
     height: 100%;
     width: calc(100% - 27px);
     justify-content: space-between;
+    align-items: center;
     background-image: url('../../../images/arrow-right.svg');
     background-position: 100% 50%;
     background-repeat: no-repeat;
@@ -15,7 +16,7 @@
 }
 
 .spect-title__buy-link:hover {
-    background-image: url('../../../images/arrow-down-w.svg');
+    background-image: url('../../../images/arrow-right-w.svg');
     color: #FFF;
     transition: 0.3s linear;
 }
