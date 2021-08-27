@@ -1,0 +1,6 @@
+.footer {
+    display: flex;
+    width: 100%;
+    padding: 42px 92px 54px 32px;
+    box-sizing: border-box;
+}
