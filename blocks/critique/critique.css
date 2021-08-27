@@ -4,7 +4,7 @@
     flex-direction: column;
     max-width: 1440px;
     box-sizing: border-box;
-    margin: 144px 0 500px;
+    margin: 144px 0 0;
     width: 100%;
     overflow: hidden;
 }
