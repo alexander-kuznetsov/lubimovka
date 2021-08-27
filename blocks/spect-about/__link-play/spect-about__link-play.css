@@ -6,14 +6,14 @@
     color: #242424;
     height: 100%;
     width: calc(100% - 27px);
-    background-image: url('../../../images/arrow-down.svg');
+    background-image: url('../../../images/spect-about/__link-play/arrow-down.svg');
     background-position: 100% 50%;
     background-repeat: no-repeat;
     text-decoration: none;
 }
 
 .spect-about__link-play:hover {
-    background-image: url('../../../images/arrow-down-w.svg');
+    background-image: url('../../../images/spect-about/__link-play/arrow-down-w.svg');
     color: #FFF;
     transition: 0.3s linear;
 }
