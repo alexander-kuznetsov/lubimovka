@@ -1,0 +1,13 @@
+.feedback__slider-dots-mobile {
+    display: none;
+    align-items: center;
+    padding-top: 4px;
+    background-color: white;
+    padding: 32px 29px;
+}
+
+@media screen and (max-width: 520px) {
+    .feedback__slider-dots-mobile {
+        display: flex;
+    }
+}

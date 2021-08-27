@@ -1,0 +1,28 @@
+.feedback-review {
+    background: white;
+    padding: 33px 30px 24px;
+    width: 420px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.feedback-review:last-of-type {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .feedback-review {
+        margin-right: 0;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .feedback-review {
+        padding: 0 27px 100px;
+    }
+}

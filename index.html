@@ -14,13 +14,44 @@
     </header>
 
     <main class="body">
+        <section class="feedback">
+            <div class="feedback__top-block">
+                <h2 class="feedback__heading">Отзывы зрителей</h2>
+                <div class="feedback__slider-dots"></div>
+                <button class="feedback__slider-arrow feedback__slider-arrow_direction_left"></button>
+                <button class="feedback__slider-arrow feedback__slider-arrow_direction_right"></button>
+            </div>
+            <div class="feedback__slider-dots-mobile"></div>
+            <div class="feedback-reviews">
+                <article class="feedback-review">
+                    <p class="feedback-review__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
+                    <p class="feedback-review__author">Дина Годер</p>
+                </article>
+                <article class="feedback-review">
+                    <p class="feedback-review__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
+                    <p class="feedback-review__author">Дарья Морозова</p>
+                </article>
+                <article class="feedback-review">
+                    <p class="feedback-review__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
+                    <p class="feedback-review__author">Дарья Морозова</p>
+                </article>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
     </footer>
 
+    <template id="feedbackReviewTemplate">
+        <article class="feedback-review">
+            <p class="feedback-review__text"></p>
+            <p class="feedback-review__author"></p>
+        </article>
+    </template>
+
 </body>
 
+<script src="./scripts/feedbackSlider.js"></script>
 <script src="./script.js"></script>
 
 </html>
