@@ -5,8 +5,9 @@
     font-style: normal;
     font-size: 40px;
     line-height: 40px;
+    letter-spacing: -.01em;
     color: #242424;
-    max-width: 369px;
+    max-width: 350px;
     padding: 0 0 40px 362px;
 }
 
