@@ -34,6 +34,7 @@ const resizeReview = (width) => {
 }
 
 const resizeFeedbackHeading = (width) => {
+    if(window.innerWidth > 1100) { return; }
     const feedbackHeading = document.querySelector('.feedback__heading');
     feedbackHeading.style.width = `${width}px`;
 }
