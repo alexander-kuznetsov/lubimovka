@@ -21,7 +21,6 @@
 @import url('../blocks/feedback-review/feedback-review.css');
 @import url('../blocks/feedback-review/__author/feedback-review__author.css');
 @import url('../blocks/feedback-review/__text/feedback-review__text.css');
-@import url(../blocks/footer/footer.css);
 @import url('../blocks/spect-title/__card/spect-title__card.css');
 @import url('../blocks/spect-title/__specification/spect-title__specification.css');
 @import url('../blocks/spect-title/spect-title.css');
@@ -49,3 +48,4 @@
 @import url('../blocks/spect-about/__link-play/spect-about__link-play.css');
 @import url('../blocks/spect-about/__autorname/spect-about__autorname.css');
 @import url('../blocks/spect-about/__autorcity/spect-about__autorcity.css');
+@import url(../blocks/footer/footer.css);
