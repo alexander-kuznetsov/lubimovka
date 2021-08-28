@@ -1,0 +1,17 @@
+.spect-about__materials {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    justify-content: space-between;
+    background-color: #B7C09D;
+    width: 240px;
+    height: 300px;
+    grid-column: 2;
+    margin-bottom: 17px;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about__materials {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,15 @@
+.spect-title__name {
+    padding-top: 62px;
+    margin: 0 0 37px 0;
+    font-size: 70px;
+    line-height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 540px;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-title__name {
+        margin: 0 0 16px 0;
+    }
+}
