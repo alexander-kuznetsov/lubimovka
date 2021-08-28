@@ -1,0 +1,13 @@
+.spect-about__people {
+    margin: 0;
+}
+
+/*
+@media screen and (max-width: 900px) {
+    .spect-about__people {
+        background-color: #fff;
+        padding-top: 58px;
+        padding-left: 27px;
+    }
+}
+*/

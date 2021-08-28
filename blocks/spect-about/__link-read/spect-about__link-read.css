@@ -1,0 +1,20 @@
+.spect-about__link-read {
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+    height: 100%;
+    width: calc(100% - 27px);
+    background-image: url('../../../images/spect-about/__link-read/arrow-45.svg');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.spect-about__link-read:hover {
+    background-image: url('../../../images/spect-about/__link-read/arrow-45-w.svg');
+    color: #FFF;
+    transition: 0.3s linear;
+}

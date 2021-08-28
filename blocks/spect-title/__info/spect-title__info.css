@@ -1,0 +1,16 @@
+.spect-title__info {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 591px;
+    grid-column: 2;
+    margin: 0;
+    padding-top: 48px;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-title__info {
+        grid-column: 1;
+        padding-top: 18px;
+    }
+}

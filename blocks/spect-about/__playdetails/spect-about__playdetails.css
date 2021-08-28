@@ -1,0 +1,14 @@
+.spect-about__playdetails {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about__playdetails {
+        background-color: #fff;
+        padding-top: 58px;
+        padding-left: 27px;
+    }
+}
