@@ -1,0 +1,15 @@
+.critique__slider-dots_mobile {
+    display: none;
+    align-items: center;
+    align-self: flex-start;
+    padding-left: 29px;
+    background: white;
+    width: 100%;
+    padding-top: 32px;
+}
+
+@media screen and (max-width: 520px) {
+    .critique__slider-dots_mobile {
+        display: flex;
+    }
+}

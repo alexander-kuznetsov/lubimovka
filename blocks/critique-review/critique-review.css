@@ -1,0 +1,27 @@
+.critique-review {
+    width: 718px;
+    padding: 55px 88px 78px;
+    box-sizing: border-box;
+    background-color: white;
+    flex-shrink: 0;
+    margin-right: 30px;
+    opacity: .4;
+    transition: opacity .3s ease-out;
+}
+
+@media screen and (max-width: 830px) {
+    .critique-review {
+        width: 100%;
+        padding: 55px 30px 78px;
+        margin-right: 0;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .critique-review {
+        width: 100%;
+        padding: 37px 23px 78px;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.feedback__slider-dots {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+}
+
+@media screen and (max-width: 520px) {
+    .feedback__slider-dots {
+        display: none;
+    }
+}

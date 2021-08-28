@@ -1,0 +1,20 @@
+.critique__top-block {
+    width: 718px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+    .critique__top-block {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .critique__top-block {
+        padding: 0 24px 25px;
+    }
+}
