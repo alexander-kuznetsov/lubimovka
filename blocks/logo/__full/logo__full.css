@@ -1,3 +1,5 @@
 .logo__full {
-    background-image: url("../../../images/logo/__full/logo_full.svg");
+    width: 93px;
+    height: 81px;
+    margin: 42px 82px 0 32px;
 }
