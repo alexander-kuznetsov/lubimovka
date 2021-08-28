@@ -2,6 +2,8 @@
     overflow: hidden;
     padding-left: 184px;
     padding-right: 30px;
+    font-family: 'neueMachinaRegular', sans-serif;
+    color: #242424
 }
 
 @media screen and (max-width: 900px) {

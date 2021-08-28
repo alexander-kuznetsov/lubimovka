@@ -13,6 +13,7 @@
     line-height: 22px;
     padding: 16px 0 18px 16px;
     color: #242424;
+    cursor: pointer;
 }
 
 .spect-title__buy-link:hover {
