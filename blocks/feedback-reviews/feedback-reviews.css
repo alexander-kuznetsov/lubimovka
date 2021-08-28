@@ -1,0 +1,27 @@
+.feedback-reviews {
+    display: flex;
+    margin-top: 56px;
+    justify-content: flex-start;
+    transition: transform .5s cubic-bezier(0.560, -0.010, 0.070, 1.020);
+}
+
+@media screen and (max-width: 1420px) {
+    .feedback-reviews {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .feedback-reviews {
+        padding: 0;
+        box-sizing: border-box;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .feedback-reviews {
+        margin-top: 0;
+    }
+}
