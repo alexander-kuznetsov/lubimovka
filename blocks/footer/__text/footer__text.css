@@ -1,14 +1,15 @@
-.partners__title {
+.footer__text {
     font-family: 'formularLight', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    margin: 0 48px 0 0;
+    color: #242424;
+    margin: 0;
 }
 @media screen and (max-width: 900px) {
-    .partners__title {
-        margin: 0;
-        line-height: 20px;
+    .footer__text {
+        font-size: 18px;
+        line-height: 23px;
     }
 }

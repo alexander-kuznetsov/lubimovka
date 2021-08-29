@@ -1,0 +1,14 @@
+.partners-mobile {
+    display: none;
+    grid-template-columns: repeat(2, 183px);
+    row-gap: 41px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 0 80px 0;
+}
+@media screen and (max-width: 900px) {
+    .partners-mobile {
+        display: grid;
+    }
+}
