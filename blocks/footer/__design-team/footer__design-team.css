@@ -1,3 +1,8 @@
 .footer__design-team {
     margin-right: 38px;
 }
+@media screen and (max-width: 900px) {
+    .footer__design-team {
+        margin-right: 0;
+    }
+}

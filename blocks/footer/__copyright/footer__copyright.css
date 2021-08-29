@@ -3,3 +3,11 @@
     gap: 32px;
     grid-template-columns: repeat(2, max-content);
 }
+@media screen and (max-width: 900px) {
+    .footer__copyright {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 59px;
+    }
+}

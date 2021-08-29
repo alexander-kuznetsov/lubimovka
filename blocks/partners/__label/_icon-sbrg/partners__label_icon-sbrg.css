@@ -1,3 +1,10 @@
 .partners__label_icon-sbrg {
     margin-right: 26px;
 }
+@media screen and (max-width: 900px) {
+    .partners__label_icon-sbrg {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 97px;
+    }
+}

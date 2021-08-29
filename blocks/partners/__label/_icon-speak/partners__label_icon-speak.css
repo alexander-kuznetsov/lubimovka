@@ -1,3 +1,9 @@
 .partners__label_icon-speak {
     width: 97px;
 }
+@media screen and (max-width: 900px) {
+    .partners__label_icon-speak {
+        margin-right: 0;
+        width: 118px;
+    }
+}

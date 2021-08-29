@@ -1,5 +1,14 @@
 .footer__dev-info {
     display: grid;
-    gap: 4px;
+    column-gap: 4px;
     grid-template-columns: repeat(3, max-content);
+}
+@media screen and (max-width: 900px) {
+    .footer__dev-info {
+        grid-template-columns: 27px max-content;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 16px;
+        column-gap: 9px;
+        margin-bottom: 74px;
+    }
 }

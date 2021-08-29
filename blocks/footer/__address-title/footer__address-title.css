@@ -1,8 +1,14 @@
-.footer__column-title {
+.footer__address-title {
     margin: 0 0 16px 0;
     font-family: 'neueMachinaRegular', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
+}
+@media screen and (max-width: 900px) {
+    .footer__address-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
