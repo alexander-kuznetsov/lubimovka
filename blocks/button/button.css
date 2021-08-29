@@ -16,20 +16,3 @@
     position: relative;
 
 }
-
-.button::before{
-    transition-timing-function: linear;
-    transition-duration: 5s;
-    content: '';
-    /* position: absolute; Абсолютное позиционирование */
-    height: 100%; 
-    width: 0;
-    background: #FFA600; /* Фон */
-}
-
-.button:hover::before {
-    
-    width: 100%;
-
-}
-
