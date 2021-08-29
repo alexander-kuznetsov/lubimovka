@@ -10,7 +10,6 @@
 
 <body class="page">
 <header class="header"></header>
-
 <main class="content">
     <!--блок spect-title-->
     <section class="spect-title">
@@ -153,6 +152,18 @@
             </li>
         </ul>
     </section>
+    <section class="critique">
+        <div class="critique__top-block">
+            <h2 class="critique__heading">Рецензии</h2>
+            <div class="critique__slider-controls">
+                <div class="critique__slider-dots"></div>
+                <button type="button" class="critique__slider-arrow critique__slider-arrow_direction_left"></button>
+                <button tupe="button" class="critique__slider-arrow critique__slider-arrow_direction_right"></button>
+            </div>
+        </div>
+        <div class="critique__slider-dots critique__slider-dots_mobile"></div>
+        <div class="critique-reviews"></div>
+    </section>
     <section class="feedback">
         <div class="feedback__top-block">
             <h2 class="feedback__heading">Отзывы зрителей</h2>
@@ -161,25 +172,7 @@
             <button class="feedback__slider-arrow feedback__slider-arrow_direction_right"></button>
         </div>
         <div class="feedback__slider-dots-mobile"></div>
-        <div class="feedback-reviews">
-            <article class="feedback-review">
-                <p class="feedback-review__text">Для самой этой истории формат читки работает отличным ироническим
-                    отстранением</p>
-                <p class="feedback-review__author">Дина Годер</p>
-            </article>
-            <article class="feedback-review">
-                <p class="feedback-review__text">Мне данный формат дал возможность самой выбирать, как двигается
-                    персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было
-                    приятно, ведь я как будто сама поучаствовала в спектакле</p>
-                <p class="feedback-review__author">Дарья Морозова</p>
-            </article>
-            <article class="feedback-review">
-                <p class="feedback-review__text">Мне данный формат дал возможность самой выбирать, как двигается
-                    персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было
-                    приятно, ведь я как будто сама поучаствовала в спектакле</p>
-                <p class="feedback-review__author">Дарья Морозова</p>
-            </article>
-        </div>
+        <div class="feedback-reviews"></div>
     </section>
 </main>
 
@@ -251,6 +244,13 @@
     </div>
 </footer>
 
+<template id="critiqueReviewTemplate">
+    <article class="critique-review">
+        <img class="critique-review__image">
+        <p class="critique-review__text"></p>
+        <a href='#' class="critique-review__more">Читать полностью</a>
+    </article>
+</template>
 <template id="feedbackReviewTemplate">
     <article class="feedback-review">
         <p class="feedback-review__text"></p>
@@ -262,5 +262,6 @@
 
 <script src="./scripts/feedbackSlider.js"></script>
 <script src="./script.js"></script>
+<script src="./scripts/critiqueSlider.js"></script>
 
 </html>

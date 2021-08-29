@@ -1,0 +1,17 @@
+.critique-review__text {
+    font-family: 'formularLight', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: -0.012em;
+    text-align: left;
+    margin: 0;
+    padding: 43px 0 36px 1px;
+}
+
+@media screen and (max-width: 520px) {
+    .critique-review__text  {
+        padding: 31px 0 36px 3px;
+    }
+}
