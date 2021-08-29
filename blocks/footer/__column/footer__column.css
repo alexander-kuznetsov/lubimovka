@@ -1,0 +1,8 @@
+.footer__column {
+    /* элемент маркер */
+}
+@media screen and (max-width: 900px) {
+    .footer__column {
+        margin-bottom: 38px;
+    }
+}

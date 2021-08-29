@@ -1,0 +1,9 @@
+.footer__column_projects {
+    margin-right: 23px;
+}
+@media screen and (max-width: 900px) {
+    .footer__column_projects {
+        width: 100%;
+        margin: 0;
+    }
+}

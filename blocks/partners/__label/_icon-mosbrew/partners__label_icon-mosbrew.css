@@ -1,0 +1,10 @@
+.partners__label_icon-mosbrew {
+    margin-right: 32px;
+    width: 88px;
+}
+@media screen and (max-width: 900px) {
+    .partners__label_icon-mosbrew {
+        margin-right: 0;
+        width: 106px;
+    }
+}
