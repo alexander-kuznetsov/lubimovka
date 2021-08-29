@@ -1,3 +1,12 @@
 .spect-about__author {
     grid-column: 2;
+    margin-bottom: 144px;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about__author {
+        grid-column: 1;
+        margin-left: 85px;
+        margin-bottom: 100px;
+    }
 }

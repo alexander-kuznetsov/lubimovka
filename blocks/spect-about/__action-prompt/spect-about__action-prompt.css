@@ -1,0 +1,14 @@
+.spect-about__action-prompt {
+    display: none;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    padding-left: 24px;
+    padding-top: 76px;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about__action-prompt {
+        display: block;
+    }
+}

@@ -12,6 +12,9 @@
 
 @media screen and (max-width: 900px) {
     .spect-about__materials {
-        margin-bottom: 24px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+        margin-left: 85px;
+        grid-column: 1;
     }
 }
