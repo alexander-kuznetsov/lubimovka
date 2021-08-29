@@ -1,9 +1,11 @@
-.button__icon {
+.button_type_burger {
+    width: 72px;
+    height: 72px;
     display: none;
-    margin: 0;
 }
+
 @media screen and (max-width: 1162px) {
-    .button__icon {
+    .button_type_burger {
         display: block;
     }
 }
