@@ -1,0 +1,10 @@
+.critique__slider-dots {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 520px) {
+    .critique__slider-dots {
+        display: none;
+    }
+}

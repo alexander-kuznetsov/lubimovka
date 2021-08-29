@@ -1,5 +1,5 @@
 .feedback {
-    padding: 116px 0 64px;
+    padding: 108px 0 64px;
     box-sizing: border-box;
     max-width:  1320px;
     margin: 0 auto;
@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 800px) {
     .feedback {
-        padding: 76px 0 0;
+        padding: 72px 0 0;
     }
 }
