@@ -1,0 +1,12 @@
+.header__list-el {
+
+    margin: 0;
+
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
