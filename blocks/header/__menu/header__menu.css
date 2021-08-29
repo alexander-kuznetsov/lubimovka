@@ -11,3 +11,11 @@
     justify-content: space-between;
 
 }
+
+@media screen and (max-width: 1162px) {
+    .header__menu {
+
+        border-bottom: none;
+
+    }
+}
