@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+    .footer__text_style_underline {
+        text-decoration: underline;
+    }
+}
