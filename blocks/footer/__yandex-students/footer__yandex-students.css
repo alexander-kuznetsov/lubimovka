@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+    .footer__yandex-students {
+        grid-column: 1/3;
+    }
+}

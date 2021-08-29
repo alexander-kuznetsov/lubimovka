@@ -1,0 +1,15 @@
+.footer__text {
+    font-family: 'formularLight', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+    margin: 0;
+}
+@media screen and (max-width: 900px) {
+    .footer__text {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}

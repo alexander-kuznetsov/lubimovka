@@ -1,0 +1,10 @@
+.footer__line {
+    display: none;
+    border-bottom: 1px solid #242424;
+    margin-bottom: 32px;
+}
+@media screen and (max-width: 900px) {
+    .footer__line {
+        display: block;
+    }
+}

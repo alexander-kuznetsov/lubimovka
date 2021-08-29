@@ -1,0 +1,13 @@
+.header__list_type_links {
+
+    padding: 0 0 0 24px;
+
+}
+
+@media screen and (max-width: 1410px) {
+    .header__list_type_links {
+        
+        display: none;
+
+    }
+}

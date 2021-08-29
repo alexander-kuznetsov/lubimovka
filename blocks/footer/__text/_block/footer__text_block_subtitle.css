@@ -1,0 +1,7 @@
+@media screen and (max-width: 900px) {
+    .footer__text_subtitle {
+        font-size: 16px;
+        line-height: 22px;
+        opacity: 0.6;
+    }
+}
