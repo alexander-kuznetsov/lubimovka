@@ -21,3 +21,11 @@
     color: #FFF;
     transition: 0.3s linear;
 }
+
+@media screen and (max-width: 600px) {
+    .spect-title__buy-link {
+        letter-spacing: 0.02em;
+        padding: 17px 0 18px 16px;
+        background-position: 198px 14px;
+    }
+}

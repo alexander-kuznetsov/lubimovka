@@ -13,3 +13,12 @@
         margin: 0 0 16px 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .spect-title__name {
+        letter-spacing: -0.01em;
+        padding-top: 21px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
