@@ -1,0 +1,17 @@
+.networks__button-decoration {
+    display: inline-block;
+    width: 53px;
+    height: 24px;
+    margin-right: 8px;
+    margin-left: 3px;
+    padding: 0;
+    background: linear-gradient(to right, #000 50%, #ECEBE8 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+.networks__button-decoration:hover {
+    background-position: 0 100%;
+    color: #FFF;
+    transition: 0.3s linear;
+}

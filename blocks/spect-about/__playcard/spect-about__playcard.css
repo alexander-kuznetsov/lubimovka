@@ -1,7 +1,7 @@
 .spect-about__playcard {
     display: grid;
     grid-template-columns: 1fr 691px;
-    grid-column-gap: 89px;
+    grid-column-gap: 90px;
 }
 
 @media screen and (max-width: 900px) {
