@@ -1,0 +1,9 @@
+.spect-about__paragraph {
+    margin: 0;
+    padding-bottom: 16px;
+    text-indent: 59px;
+}
+
+.spect-about__paragraph:first-of-type {
+    text-indent: 0px;
+}
