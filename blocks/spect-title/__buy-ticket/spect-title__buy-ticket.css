@@ -19,3 +19,10 @@
     color: #FFF;
     transition: 0.3s linear;
 }
+
+@media screen and (max-width: 600px) {
+    .spect-title__buy-ticket {
+        margin-left: 61px;
+        padding-top: 2px;
+    }
+}

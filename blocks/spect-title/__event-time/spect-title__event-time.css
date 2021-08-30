@@ -6,3 +6,10 @@
     padding-bottom: 16px;
     box-sizing: content-box;
 }
+
+@media screen and (max-width: 600px) {
+    .spect-title__event-time {
+        padding-left: 65px;
+        letter-spacing: -0.01em;
+    }
+}

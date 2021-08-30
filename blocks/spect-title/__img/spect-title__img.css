@@ -8,3 +8,10 @@
         grid-column: 1;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .spect-title__img {
+        height: 450px;
+        object-fit: cover;
+    }
+}
