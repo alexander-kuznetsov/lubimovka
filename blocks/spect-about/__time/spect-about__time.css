@@ -5,3 +5,10 @@
     margin: 0;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .spect-about__time {
+        letter-spacing: -0.01em;
+        padding-left: 1px;
+    }
+}

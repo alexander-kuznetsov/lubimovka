@@ -12,3 +12,10 @@
         padding-left: 27px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .spect-about__playdetails {
+        padding-left: 25px;
+        padding-bottom: 74px;
+    }
+}

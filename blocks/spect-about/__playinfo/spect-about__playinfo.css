@@ -6,11 +6,19 @@
     grid-column: 2;
     margin: 0;
     padding-top: 66px;
+    font-family: 'formularLight', sans-serif;
+    letter-spacing: -0.013em;
 }
 
 @media screen and (max-width: 900px) {
     .spect-about__playinfo {
         grid-column: 1;
         padding: 8px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spect-about__playinfo {
+        padding: 7px 24px 0 25px;
     }
 }
