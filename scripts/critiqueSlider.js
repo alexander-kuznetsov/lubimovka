@@ -71,7 +71,7 @@
     const createReviewElement = (review, i) => {
         const element = reviewTemplate.querySelector('.critique-review').cloneNode(true);
         element.querySelector('.critique-review__text').textContent = review.text;
-        element.querySelector('.critique-review__image').src = `/images/${review.image}`;
+        element.querySelector('.critique-review__image').src = `./images/${review.image}`;
         element.querySelector('.critique-review__image').alt = review.alt;
         element.querySelector('.critique-review__more').href = review.link;
         if(i === 0) {
