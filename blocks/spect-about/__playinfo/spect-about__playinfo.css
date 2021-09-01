@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 600px) {
     .spect-about__playinfo {
+        max-width: 272px;
         padding: 7px 24px 0 25px;
     }
 }

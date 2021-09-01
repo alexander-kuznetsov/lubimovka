@@ -1,13 +1,10 @@
 .spect-about__button-decoration {
-    display: inline-block;
-    min-width: 240px;
-    min-height: 56px;
+    width: 240px;
+    height: 56px;
     margin: 0;
-    padding: 0;
     border-top: 1px solid #242424;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background: linear-gradient(to right, #000 50%, #B7C09D 50%);
     background-size: 200% 100%;

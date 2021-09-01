@@ -1,13 +1,14 @@
 .spect-about__link-read {
+    padding-top: 16px;
     padding-left: 16px;
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
     color: #242424;
     height: 100%;
-    width: calc(100% - 27px);
+    width: 100%;
     background-image: url('../../../images/spect-about/__link-read/arrow-45.svg');
-    background-position: 100% 50%;
+    background-position: 90% 30%;
     background-repeat: no-repeat;
     text-decoration: none;
     cursor: pointer;

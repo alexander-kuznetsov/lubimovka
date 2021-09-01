@@ -9,8 +9,8 @@
 @media screen and (max-width: 900px) {
     .spect-about__video {
         grid-column: 1;
-        max-width: 366px;
-        max-height: 206px;
+        max-width: 270px;
+        max-height: 152px;
         padding: 0 24px 0 24px;
     }
 }
