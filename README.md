@@ -7,7 +7,7 @@
 
 **GitHub Pages**
 
-* [Ссылка на задеплоенный проект](https://github.com/alexander-kuznetsov/lubimovka/index.html)
+* [Ссылка на задеплоенный проект](https://alexander-kuznetsov.github.io/lubimovka/)
 
 **GitHub**
 
