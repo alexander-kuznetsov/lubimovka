@@ -5,6 +5,7 @@
     margin: 0;
     padding-left: 0px;
     align-self: center;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
 }
 
 @media screen and (max-width: 800px) {

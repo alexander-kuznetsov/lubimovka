@@ -4,6 +4,7 @@
     line-height: 32px;
     margin: 0;
     padding-bottom: 20px;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
