@@ -6,6 +6,7 @@
     grid-column: 2;
     margin: 0;
     padding-top: 48px;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
 }
 
 @media screen and (max-width: 900px) {

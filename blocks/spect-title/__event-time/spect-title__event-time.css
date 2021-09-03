@@ -5,6 +5,7 @@
     margin: 0;
     padding-bottom: 16px;
     box-sizing: content-box;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
 }
 
 @media screen and (max-width: 600px) {

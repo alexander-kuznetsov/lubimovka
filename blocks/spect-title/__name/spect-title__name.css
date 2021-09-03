@@ -6,6 +6,7 @@
     font-style: normal;
     font-weight: 400;
     max-width: 540px;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
 }
 
 @media screen and (max-width: 900px) {
