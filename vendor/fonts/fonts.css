@@ -13,11 +13,11 @@
 
 @font-face {
 	font-family: 'neueMachinaRegular';
-	src: url('./neue-machina-regular/PPneueMachina-Regular.eot');
+	src: url('./neue-machina-regular/PPNeueMachina-Regular.eot');
 	src:
-	     url('./neue-machina-regular/PPneueMachina-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('./neue-machina-regular/PPneueMachina-Regular.woff2') format('woff2'),
-	     url('./neue-machina-regular/PPneueMachina-Regular.woff') format('woff');
+	     url('./neue-machina-regular/PPNeueMachina-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('./neue-machina-regular/PPNeueMachina-Regular.woff2') format('woff2'),
+	     url('./neue-machina-regular/PPNeueMachina-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
