@@ -12,49 +12,33 @@
     <header class="header">
         <section class="header__menu">
             <img src="./images/header/logo_short.svg" alt="Логотип" class="header__logo">
-            <menu class="header__list header__list_type_menu">
-                <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left"></div>
+            <nav class="header__list header__list_type_menu">
+                <li class="header__list-el header__list-el_type_menu header__list-el_point-on">
                     <a href="#" class="link">Афиша</a>
-                    <div class="header__list-point header__list-point_type_right"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">Библиотека</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">Проекты</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">История</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">Блог</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">Новости</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">О&nbsp;фестивале</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
                 <li class="header__list-el header__list-el_type_menu">
-                    <div class="header__list-point header__list-point_type_left header__list-point_off"></div>
                     <a href="#" class="link">Контакты</a>
-                    <div class="header__list-point header__list-point_type_right header__list-point_off"></div>
                 </li>
-            </menu>
-            <menu class="header__list header__list_type_links">
+            </nav>
+            <nav class="header__list header__list_type_links">
                 <li class="header__list-el header__list-el_type_link">
                     <a href="#" class="link">Fb</a>
                 </li>
@@ -70,13 +54,13 @@
                 <li class="header__list-el header__list-el_type_link">
                     <a href="#" class="link">Vk</a>
                 </li>
-            </menu>
+            </nav>
             <button class="button button_type_support" type="button">
-                <img class="button__icon" src="./images/button/plus.svg" alt="Плюс"> Поддержать
+                <p class="button__content button__content_type_support">Поддержать</p>
             </button>
         </section>
-        <button class="button button_type_projects" type="button">Проекты
-            <img class="button__icon" src="./images/button/arrow-left.svg" alt="Стрелка влево">
+        <button class="button button_type_projects" type="button">
+            <p class="button__content button__content_type_projects">Проекты</p>
         </button>
         <button class="button button_type_burger" type="button">
             <img class="button__icon" src="./images/header/burger.svg" alt="Стрелка влево">
@@ -378,5 +362,6 @@
 
 <script src="./scripts/feedbackSlider.js"></script>
 <script src="./scripts/critiqueSlider.js"></script>
+<script src="./scripts/headerScripts.js"></script>
 
 </html>
