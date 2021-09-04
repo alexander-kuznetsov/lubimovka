@@ -1,0 +1,15 @@
+.button__content_type_projects {
+
+    padding: 0 25px 0 10px;
+
+    background-image: url(../../../../images/button/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+
+}
+
+.button__content_type_projects:hover {
+
+    background-image: url(../../../../images/button/arrow-left_white.svg);
+
+}

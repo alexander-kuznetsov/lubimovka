@@ -12,15 +12,15 @@
 @import url(../blocks/header/__list-el/header__list-el.css);
 @import url(../blocks/header/__list-el/_type/header__list-el_type_menu.css);
 @import url(../blocks/header/__list-el/_type/header__list-el_type_link.css);
-@import url(../blocks/header/__list-point/header__list-point.css);
-@import url(../blocks/header/__list-point/_type/header__list-point_type_left.css);
-@import url(../blocks/header/__list-point/_type/header__list-point_type_right.css);
-@import url(../blocks/header/__list-point/_off/header__list-point_off.css);
+@import url(../blocks/header/__list-el/_point-on/header__list-el_point-on.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_projects.css);
 @import url(../blocks/button/_type/button_type_support.css);
 @import url(../blocks/button/_type/button_type_burger.css);
 @import url(../blocks/button/__icon/button__icon.css);
+@import url(../blocks/button/__content/button__content.css);
+@import url(../blocks/button/__content/_type/button__content_type_support.css);
+@import url(../blocks/button/__content/_type/button__content_type_projects.css);
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/content/content.css);

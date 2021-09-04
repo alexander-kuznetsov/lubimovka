@@ -1,0 +1,15 @@
+.button__content_type_support {
+
+    padding: 0 0 0 25px;
+
+    background-image: url(../../../../images/button/plus.svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+
+}
+
+.button__content_type_support:hover {
+
+    background-image: url(../../../../images/button/plus_white.svg);
+
+}

@@ -2,7 +2,11 @@
     margin: 0;
 }
 @media screen and (max-width: 1162px) {
+    
     .button__icon {
+
         display: block;
+
     }
+    
 }

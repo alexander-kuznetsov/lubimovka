@@ -19,6 +19,9 @@
         flex-direction: row;
 
         justify-content: space-between;
+        align-self: flex-start;
+
+        width: calc(100% - 132px);
 
     }
 }
