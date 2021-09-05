@@ -1,0 +1,27 @@
+.button_type_support {
+
+    font-family: 'formularLight', sans-serif;
+    border-left: 1px solid #242424;
+
+    text-transform: uppercase;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 1162px) {
+    .button_type_support {
+        
+        width: 100%;
+
+        border-left: none;
+        border: none;
+
+    }
+}

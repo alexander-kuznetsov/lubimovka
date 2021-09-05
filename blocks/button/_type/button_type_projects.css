@@ -1,0 +1,22 @@
+.button_type_projects {
+
+    margin: 33px 0 0 30px;
+
+    height: 32px;
+
+    background-color: #ECEBE8;
+
+    border-right: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+
+    text-transform: uppercase;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: right;
+    color: #242424;
+    font-family: 'formularLight', sans-serif;
+
+}

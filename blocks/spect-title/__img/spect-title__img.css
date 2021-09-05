@@ -1,0 +1,17 @@
+.spect-title__img {
+    width: 100%;
+    grid-column: 2;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-title__img {
+        grid-column: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spect-title__img {
+        height: 450px;
+        object-fit: cover;
+    }
+}

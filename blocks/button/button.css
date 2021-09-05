@@ -1,0 +1,31 @@
+.button {
+
+    margin: 0;
+    padding: 0;
+
+    border-radius: 0;
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+
+    cursor: pointer;
+
+    background: linear-gradient(to right, #242424 50%, #ECEBE8 50%);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 200% 100%;
+    background-position: 100%;
+
+}
+
+.button:hover {
+
+    background-position: 0 100%;
+    color: #ECEBE8;
+    transition: 0.3s linear;
+    
+}

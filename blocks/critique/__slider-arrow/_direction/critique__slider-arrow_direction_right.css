@@ -1,0 +1,25 @@
+@keyframes arrowRightRotate {
+    from {
+        clip: rect(48px, 24px, 48px, 0px);;
+    }
+    to {
+        clip: rect(0px, 24px, 48px, 0px);
+    }
+}
+
+.critique__slider-arrow_direction_right {
+    background-image: url('../../../../images/critique/__slider-arrow/arrow-right.svg');
+}
+
+.critique__slider-arrow_direction_right:before {
+    clip: rect(24px, 48px, 48px, 0px);
+    transform: rotate(-90deg);
+}
+
+.critique__slider-arrow_direction_right:after {
+    clip: rect(48px, 24px, 48px, 0px);
+}
+
+.critique__slider-arrow_direction_right:hover:after {
+    animation: arrowRightRotate .2s ease-out;
+}

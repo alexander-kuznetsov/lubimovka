@@ -1,0 +1,14 @@
+.spect-about {
+    overflow: hidden;
+    padding-left: 184px;
+    padding-right: 30px;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
+    color: #242424
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

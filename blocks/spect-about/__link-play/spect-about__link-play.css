@@ -1,0 +1,22 @@
+.spect-about__link-play {
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
+    padding-left: 16px;
+    padding-top: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../images/spect-about/__link-play/arrow-down.svg');
+    background-position: 90% 40%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.spect-about__link-play:hover {
+    background-image: url('../../../images/spect-about/__link-play/arrow-down-w.svg');
+    color: #FFF;
+    transition: 0.3s linear;
+}

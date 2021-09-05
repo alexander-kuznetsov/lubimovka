@@ -1,0 +1,15 @@
+.critique {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 144px 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 520px) {
+    .critique {
+        margin-top: 93px;
+    }
+}

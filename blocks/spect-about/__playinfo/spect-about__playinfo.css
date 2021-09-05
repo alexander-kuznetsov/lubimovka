@@ -1,0 +1,25 @@
+.spect-about__playinfo {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 602px;
+    grid-column: 2;
+    margin: 0;
+    padding-top: 66px;
+    font-family: 'formularLight', sans-serif;
+    letter-spacing: -0.013em;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about__playinfo {
+        grid-column: 1;
+        padding: 8px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spect-about__playinfo {
+        max-width: 272px;
+        padding: 7px 24px 0 25px;
+    }
+}

@@ -1,0 +1,22 @@
+.spect-about__link-read {
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
+    padding-top: 16px;
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../images/spect-about/__link-read/arrow-45.svg');
+    background-position: 90% 30%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.spect-about__link-read:hover {
+    background-image: url('../../../images/spect-about/__link-read/arrow-45-w.svg');
+    color: #FFF;
+    transition: 0.3s linear;
+}

@@ -1,0 +1,9 @@
+.spect-about__people {
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .spect-about__people {
+        max-width: 300px;
+    }
+}

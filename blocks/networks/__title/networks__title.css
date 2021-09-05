@@ -1,0 +1,17 @@
+.networks__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding-left: 0px;
+    align-self: center;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .networks__title {
+        align-self: start;
+        padding-left: 36px;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+.spect-title__specification {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .spect-title__specification {
+        padding-left: 24px;
+    }
+}

@@ -1,0 +1,20 @@
+.photos__title {
+    margin: 0;
+    font-family: 'neueMachinaRegular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -.01em;
+    color: #242424;
+    max-width: 350px;
+    padding: 0 0 40px 362px;
+}
+
+@media screen and (max-width: 830px) {
+    .photos__title {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 0 0 22px 24px;
+    }
+}

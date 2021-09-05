@@ -1,0 +1,27 @@
+.header {
+
+    font-family: 'formularLight';
+    color: #242424;
+
+    margin: 0;
+    padding: 15px 0 0 0;
+    
+    max-width: 1440px;
+    width: 100%;
+    min-height: 61px;
+
+}
+
+@media screen and (max-width: 1162px) {
+    .header {
+        
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        align-self: flex-start;
+
+        width: calc(100% - 132px);
+
+    }
+}

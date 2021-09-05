@@ -1,0 +1,17 @@
+.header__list-el_type_link {
+
+    margin: 0 16px 0 0;
+
+    line-height: 18px;
+
+    text-transform: lowercase;
+    
+}
+
+@media screen and (max-width: 1162px) {
+    .header__list-el_type_link {
+        
+        margin: 0 10px 0 0;
+
+    }
+}

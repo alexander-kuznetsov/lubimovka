@@ -1,0 +1,16 @@
+.spect-title__event-time {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 16px;
+    box-sizing: content-box;
+    font-family: 'neueMachinaRegular', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .spect-title__event-time {
+        padding-left: 65px;
+        letter-spacing: -0.01em;
+    }
+}

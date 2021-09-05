@@ -1,0 +1,39 @@
+.header__list-el_type_menu {
+
+    margin: 0 24px 0 0;
+
+    line-height: 22px;
+
+}
+
+.header__list-el_type_menu::before {
+
+    content: '';
+
+    border-left: 2px solid #ECEBE8;
+    border-radius: 46px 0 0 46px;
+
+    width: 10px;
+    height: 24px;
+
+}
+
+.header__list-el_type_menu::after {
+
+    content: '';
+
+    border-right: 2px solid #ECEBE8;
+    border-radius: 0 46px 46px 0;
+
+    width: 10px;
+    height: 24px;
+
+}
+
+@media screen and (max-width: 1162px) {
+    .header__list-el_type_menu {
+        
+        margin: 0;
+
+    }
+}

@@ -1,0 +1,32 @@
+.spect-title__buy-link {
+    font-family: 'formularLight', sans-serif;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../../images/spect-title/__buy-link/arrow-right.svg');
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 0 18px 16px;
+    color: #242424;
+    cursor: pointer;
+}
+
+.spect-title__buy-link:hover {
+    background-image: url('../../../images/spect-title/__buy-link/arrow-right-w.svg');
+    color: #FFF;
+    transition: 0.3s linear;
+}
+
+@media screen and (max-width: 600px) {
+    .spect-title__buy-link {
+        letter-spacing: 0.02em;
+        padding: 17px 0 18px 16px;
+        background-position: 198px 14px;
+    }
+}

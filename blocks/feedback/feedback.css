@@ -1,0 +1,13 @@
+.feedback {
+    padding: 108px 0 64px;
+    box-sizing: border-box;
+    max-width:  1320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .feedback {
+        padding: 72px 0 0;
+    }
+}
