@@ -17,18 +17,7 @@
 @media screen and (max-width: 1162px) {
     .header__list_type_menu {
 
-        padding: 5px;
-        
-        position: fixed;
-        top: 100px;
-        right: 30px;
-
-        display: none;
-        flex-direction: column;
-        align-items:flex-end;
-
-        background-color: #ECEBE8;
-        border-bottom: 1px solid #242424;
+        padding: 0;
 
     }
-}
+} 

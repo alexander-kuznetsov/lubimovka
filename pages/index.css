@@ -13,6 +13,8 @@
 @import url(../blocks/header/__list-el/_type/header__list-el_type_menu.css);
 @import url(../blocks/header/__list-el/_type/header__list-el_type_link.css);
 @import url(../blocks/header/__list-el/_point-on/header__list-el_point-on.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_mobile/header__nav_mobile.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_projects.css);
 @import url(../blocks/button/_type/button_type_support.css);

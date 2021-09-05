@@ -18,7 +18,10 @@
 @media screen and (max-width: 1162px) {
     .button_type_support {
         
-        display: none;
+        width: 100%;
+
+        border-left: none;
+        border: none;
 
     }
 }

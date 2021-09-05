@@ -29,3 +29,11 @@
     height: 24px;
 
 }
+
+@media screen and (max-width: 1162px) {
+    .header__list-el_type_menu {
+        
+        margin: 0;
+
+    }
+}
