@@ -8,3 +8,10 @@
     
 }
 
+@media screen and (max-width: 1162px) {
+    .header__list-el_type_link {
+        
+        margin: 0 10px 0 0;
+
+    }
+}

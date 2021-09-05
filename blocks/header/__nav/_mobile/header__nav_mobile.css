@@ -1,0 +1,16 @@
+@media screen and (max-width: 1162px) {
+    .header__nav_mobile {
+        
+        position: fixed;
+        top: 100px;
+        right: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+
+        background-color: #ECEBE8;
+        border-bottom: 1px solid #242424;
+
+    }
+}

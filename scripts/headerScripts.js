@@ -1,5 +1,5 @@
 const page = document.querySelector('.page');
-const menu = page.querySelector('.header__list_type_menu');
+const menu = page.querySelector('.header__nav');
 const elementsArr = menu.querySelectorAll('.header__list-el_type_menu');
 const buttonBurger = page.querySelector('.button_type_burger');
 
@@ -29,7 +29,6 @@ menu.addEventListener('click', (event) => {
 
 buttonBurger.addEventListener('click', () => {
 
-    menu.style.cssText = 'display: flex;';
-    console.log(menu.style);
+    menu.classList.toggle('header__nav_mobile');
 
-})
+});
